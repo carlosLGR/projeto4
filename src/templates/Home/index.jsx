@@ -1,20 +1,14 @@
 /* eslint-disable no-unused-vars */
 import P from 'prop-types';
 import Head from 'next/head';
-import * as Styled from './styles';
 
-import { mapData } from '../../api/map-data';
-
-import { Heading } from '../../components/Heading';
 import { GridTwoColumn } from '../../components/GridTwoColumn';
 import { GridContent } from '../../components/GridContent';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
 
-import { mockBase } from '../Base/mock';
 import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
-import { Loading } from '../Loading';
 
 import config from '../../config';
 

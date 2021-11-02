@@ -7,8 +7,8 @@ const rotate = () => keyframes`
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
   }
-`
-export const Container  = styled.div`
+`;
+export const Container = styled.div`
   ${({ theme }) => css`
     position: absolute;
     top: 0;
@@ -18,7 +18,8 @@ export const Container  = styled.div`
     z-index: 10;
     background-color: ${theme.colors.primaryColor};
 
-    &:before, &:after {
+    &:before,
+    &:after {
       content: '';
       position: absolute;
       top: 50%;
@@ -43,7 +44,6 @@ export const Container  = styled.div`
       border-left: 0.5rem solid ${theme.colors.secondaryColor};
       border-top: 0.5rem solid ${theme.colors.secondaryColor};
       animation: ${rotate()} 1s reverse infinite;
-
     }
   `}
 `;

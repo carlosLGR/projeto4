@@ -1,8 +1,7 @@
-/* eslint-disable import/no-anonymous-default-export */
 import { Base } from '.';
 
 import mock from './mock';
-import {GridText} from '../../components/GridText';
+import { GridText } from '../../components/GridText';
 import gridMock from '../../components/GridText/mock';
 
 export const mockBase = {
@@ -32,5 +31,3 @@ export const Template = (args) => {
     </div>
   );
 };
-
-
