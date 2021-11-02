@@ -7,7 +7,7 @@ const menuVisible = (theme) => css`
   opacity: 1;
 `;
 
-export const Container  = styled.div`
+export const Container = styled.div`
   ${({ theme, visible }) => css`
     position: fixed;
     z-index: 5;
@@ -42,19 +42,19 @@ export const Container  = styled.div`
         height: 100vh;
         align-items: center;
         overflow-y: auto;
-    }
+      }
 
-    & ${Heading} {
-      padding-bottom: ${theme.spacings.large};
-      display: flex;
-      justify-content: center;
-    }
+      & ${Heading} {
+        padding-bottom: ${theme.spacings.large};
+        display: flex;
+        justify-content: center;
+      }
     }
   `}
 `;
 
 export const MenuContainer = styled.div`
-  ${({theme}) => css`
+  ${({ theme }) => css`
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +68,7 @@ export const MenuContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  ${({theme, visible}) => css`
+  ${({ theme, visible }) => css`
     z-index: 6;
     position: fixed;
     top: 2rem;
@@ -92,5 +92,4 @@ export const Button = styled.button`
       height: 2.5rem;
     }
   `}
-
 `;

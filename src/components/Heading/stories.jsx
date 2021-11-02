@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import { Heading } from '.';
 
 export default {
@@ -18,7 +17,7 @@ export default {
 };
 
 export const Light = (args) => <Heading {...args} />;
-export const Dark = (args) => <Heading {...args}/>;
+export const Dark = (args) => <Heading {...args} />;
 
 Light.parameters = {
   backgrounds: {

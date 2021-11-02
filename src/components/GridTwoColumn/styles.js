@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 import { Title } from '../Heading/styles';
 
-export const Container  = styled.div`
+export const Container = styled.div`
   ${({ theme, background }) => css`
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -9,33 +9,28 @@ export const Container  = styled.div`
     gap: ${theme.spacings.large};
 
     @media ${theme.media.lteMedium} {
-    grid-template-columns: 1fr;
-    text-align: center;
+      grid-template-columns: 1fr;
+      text-align: center;
     }
 
     ${Title} {
       margin-botton: ${theme.spacings.xlarge};
-      color: ${background ? theme.colors.white : theme.colors.primaryColor}
+      color: ${background ? theme.colors.white : theme.colors.primaryColor};
     }
   `}
 `;
 
-export const TextContainer  = styled.div`
+export const TextContainer = styled.div`
   ${({ theme }) => css`
-  @media ${theme.media.lteMedium} {
-    margin-bottom: ${theme.spacings.large};
+    @media ${theme.media.lteMedium} {
+      margin-bottom: ${theme.spacings.large};
     }
   `}
 `;
-export const ImageContainer  = styled.div`
-  ${({ theme }) => css`
-
-  `}
+export const ImageContainer = styled.div`
+  ${() => css``}
 `;
 
-export const Image  = styled.img`
-  ${({ theme }) => css`
-
-  `}
+export const Image = styled.img`
+  ${() => css``}
 `;
-

@@ -1,5 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
-import {Menu} from '.';
+import { Menu } from '.';
 
 import linksMock from '../NavLinks/mock';
 
@@ -12,13 +11,13 @@ export default {
       text: 'logo',
       link: '#target',
       srcImg: '',
-    }
+    },
   },
 };
 
 export const Template = (args) => {
   return (
-    <div style={{height: '300vh', background: 'gray'}}>
+    <div style={{ height: '300vh', background: 'gray' }}>
       <Menu {...args} />
     </div>
   );

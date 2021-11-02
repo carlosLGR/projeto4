@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import {Container as TextComponent} from '../TextComponent/styles'
+import { Container as TextComponent } from '../TextComponent/styles';
 
-export const Container  = styled.div`
+export const Container = styled.div`
   ${({ theme }) => css`
     > ${TextComponent} {
       margin-botton: ${theme.spacings.xHuge};
@@ -9,7 +9,7 @@ export const Container  = styled.div`
   `}
 `;
 
-export const Grid  = styled.div`
+export const Grid = styled.div`
   ${({ theme }) => css`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -21,14 +21,14 @@ export const Grid  = styled.div`
   `}
 `;
 
-export const GridElement  = styled.div`
-  ${({ theme }) => css`
+export const GridElement = styled.div`
+  ${() => css`
     overflor: hidden;
   `}
 `;
 
-export const Image  = styled.img`
-  ${({ theme }) => css`
+export const Image = styled.img`
+  ${() => css`
     width: 100%;
     transition: all 300ms ease-in-out;
     &:hover {

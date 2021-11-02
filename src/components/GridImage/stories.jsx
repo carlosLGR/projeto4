@@ -1,5 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
-import {GridImage} from '.';
+import { GridImage } from '.';
 
 import mock from './mock';
 

@@ -1,5 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
-import {GridTwoColumn} from '.';
+import { GridTwoColumn } from '.';
 
 export default {
   title: 'GridTwoColumn',
@@ -10,7 +9,7 @@ export default {
     srcImg: 'assets/images/javascript.svg',
   },
   argTypes: {
-    children: {type: 'string',}
+    children: { type: 'string' },
   },
 };
 

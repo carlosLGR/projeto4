@@ -1,5 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
-import {LogoLink} from '.';
+import { LogoLink } from '.';
 
 export default {
   title: 'LogoLink',

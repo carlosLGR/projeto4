@@ -1,5 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
-import {SectionContainer} from '.';
+import { SectionContainer } from '.';
 
 export default {
   title: 'SectionContainer',
@@ -8,12 +7,17 @@ export default {
     children: (
       <div>
         <h1>SectionContainer</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut reiciendis eum, possimus voluptate deserunt iusto placeat, optio est quod reprehenderit cum veritatis veniam vel incidunt commodi, velit eveniet tenetur provident?</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+          reiciendis eum, possimus voluptate deserunt iusto placeat, optio est
+          quod reprehenderit cum veritatis veniam vel incidunt commodi, velit
+          eveniet tenetur provident?
+        </p>
       </div>
     ),
   },
   argTypes: {
-    children: {type: 'string',}
+    children: { type: 'string' },
   },
 };
 

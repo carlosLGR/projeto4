@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import { Footer } from '.';
 
 export default {
